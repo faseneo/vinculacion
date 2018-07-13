@@ -6,10 +6,10 @@
 </head>
 <body>
     <?php include "barranav.php"; ?>
-    <div class="container" style="margin-top:50px">
+    <div class="container" style="margin-top:50px"> 
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <center><h3>Formulario Único de Comisiones</h3></center><br><br>
+                <center><h3>Formulario Único de Comisiones</h3></center><br>
                 <form id="contact-form" method="post" action="#" role="form">
                     <div class="messages"></div>
                     <div class="controls">
@@ -112,44 +112,71 @@
                                 </div>
                             </div>
                         </div>
-
-
-                        <table class="table table-bordered">
-                            <tr class="filaasistente">
-                                <th colspan="2">Su objetivo es</th>
-                                <th colspan="2">Su origen es</th>
-                            </tr>  
-                                <td width="70" colspan="2">
-                                    <table class="tabledia table-hover small agenda agenda-hover ">
-                                        <tr class="morning"><td>Especializacion en su area</td>
-                                            <td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Investigacion y desarrollo de trabajos</td>
-                                            <td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Representar a la UMCE</td>
-                                            <td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Integracion y/o intercooperacion</td>
-                                            <td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Otro</td>
-                                            <td><input type="checkbox"></td></tr>  
-                                    </table>                               
-                                </td>
-                                <td width="70" colspan="2">
-                                    <table class="tabledia table-hover small agenda agenda-hover ">
-                                        <tr class="morning"><td>Invitacion</td>
-                                            <td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Disposicion del departamento</td>
-                                            <td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Proposicion del funcionario</td>
-                                            <td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Concurrencia regular</td>
-                                            <td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Otro</td>
-                                            <td><input type="checkbox"></td></tr>
-                                     </table>
-                                </td>
-                        </table>
-
-                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th colspan="2"><label>Su objetivo es</label></th>
+                                        <th colspan="2"><label>Su origen es</label></th>
+                                    </tr>
+                                    <tr>
+                                        <tr><td><label>Especializacion en su Area</label></td>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                        <th>
+                                            <label>Invitacion</label>
+                                        </th>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                        </tr>
+                                        <tr><td><label>Investigacion y Desarrollo de Trabajos</label></td>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                        <th>
+                                            <label >Disposicion del Departamento</label>
+                                        </th>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                        </tr>
+                                        <tr><td><label>Representar a la UMCE</label></td>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                        <th>
+                                            <label >Proposicion del Funcionario</label>
+                                        </th>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                        </tr>
+                                        <tr><td><label >Integracion y/o Intercooperacion</label></td>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                        <th>
+                                            <label >Concurrencia Regular</label>
+                                        </th>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                        </tr>
+                                    </tr>
+                                    <tr>
+                                        <th>Otro</th>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                        <th><label>Otro</label></th>
+                                        <th>
+                                            <input name= "#" type="radio">
+                                        </th>
+                                    </tr>
+                                </table>
+                            </div>
+                       <center> <div class="row">
                             <div class="col-md-5">
                                 <div class="form-group">
                                     <label >Su ausencia requerira un reemplazante</label>
@@ -170,63 +197,70 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                        </div>
-
-
-                        <table class="table table-bordered">
-                            <tr class="filaasistente">
-                                <th colspan="2">Comision con gastos de:</th>
-                                <th colspan="2"></th>
-                                <th colspan="2">Valor</th>
-                            </tr>  
-                                <td width="30" colspan="2">
-                                    <table class="tabledia table-hover small agenda agenda-hover ">
-                                        <tr class="morning"><td>Viaticos (*)</td></tr>
-                                        <tr class="morning"><td>Pasajes</td></tr>
-                                        <tr class="morning"><td>Inscripcion</td></tr>
-                                        <tr class="morning"><td>Otros(Indicar)</td></tr>  
-                                    </table>                               
-                                </td>
-                                <td width="30" colspan="2">
-                                    <table class="tabledia table-hover small agenda agenda-hover ">
-                                        <tr class="morning"><td>Si</td>
-                                            <td><input type="checkbox"></td>
-                                            <td>No</td><td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Si</td>
-                                            <td><input type="checkbox"></td>
-                                            <td>No</td><td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Si</td>
-                                            <td><input type="checkbox"></td>
-                                            <td>No</td><td><input type="checkbox"></td></tr>
-                                        <tr class="morning"><td>Si</td>
-                                            <td><input type="checkbox"></td>
-                                            <td>No</td><td><input type="checkbox"></td></tr>
-                                     </table>
-                                </td>
-                                <td width="30" colspan="2">
-                                    <table class="tabledia table-hover small agenda agenda-hover ">
-                                        <tr class="morning"><td></td>
-                                            <td><input type="text"></td></tr>
-                                        <tr class="morning"><td></td>
-                                            <td><input type="text"></td></tr>
-                                        <tr class="morning"><td></td>
-                                            <td><input type="text"></td></tr>
-                                        <tr class="morning"><td></td>
-                                            <td><input type="text"></td></tr>
-                                     </table>
-                                </td>
-                            <tr class="filaasistente">
-                                <th colspan="2"></th>
-                                <th colspan="2">Gasto Total:</th>
-                                <th colspan="2"><input type="text"></th>
-                            </tr>     
-                        </table>
-
-                        <p>NOTA: Los comprobantes de gastos, en original, deben entregarse en el Dpto. de Personal en un plazo máximo de 30 días.</p>
-                        <p>(*) Los viaticos cubren gastos de alojamiento y alimentación y no se rinden.</p><br>
-
-
-                        <div class="row">
+                        </div> </center>
+                            <div class="col-md-12">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th colspan="3"><center><label>Comision con gastos de</label></center></th>
+                                        <th><center><label>$</label></center></th>
+                                    </tr>
+                                    <tr>
+                                        <tr class="morning"><td>Viaticos (*)</td>
+                                        <th>
+                                            <center><label >Si</label>
+                                            <input name= "#" type="radio"></center>
+                                        </th>
+                                        <th>
+                                            <center><label >No</label>
+                                            <input name= "#" type="radio"></center>
+                                        </th>
+                                        <th><center><input name= "#" type="text"></center></th>
+                                        </tr>
+                                        <tr class="morning"><td>Pasajes</td>
+                                        <th>
+                                            <center><label >Si</label>
+                                            <input name= "#" type="radio"></center>
+                                        </th>
+                                        <th>
+                                            <center><label >No</label>
+                                            <input name= "#" type="radio"></center>
+                                        </th>
+                                        <th><center><input name= "#" type="text"></center></th>
+                                        </tr>
+                                        <tr class="morning"><td>Inscripcion</td>
+                                        <th>
+                                            <center><label >Si</label>
+                                            <input name= "#" type="radio"></center>
+                                        </th>
+                                        <th>
+                                            <center><label >No</label>
+                                            <input name= "#" type="radio"></center>
+                                        </th>
+                                        <th><center><input name= "#" type="text"></center></th>
+                                        </tr>
+                                        <tr class="morning"><td>Otros(Indicar)</td>
+                                        <th>
+                                            <center><label >Si</label>
+                                            <input name= "#" type="radio"></center>
+                                        </th>
+                                        <th>
+                                            <center><label >No</label>
+                                            <input name= "#" type="radio"></center>
+                                        </th>
+                                        <th><center><input name= "#" type="text"></center></th>
+                                        </tr>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                        <th><center><label>Gasto Total</label></center></th>
+                                        <th><center><input name= "#" type="text"></center></th>
+                                    </tr>
+                                </table>
+                            </div>
+                        <center><p>NOTA: Los comprobantes de gastos, en original, deben entregarse en el Dpto. de Personal en un plazo máximo de 30 días.</p>
+                        <p>(*) Los viaticos cubren gastos de alojamiento y alimentación y no se rinden.</p></center><br>
+                       <center> <div class="row">
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label >Solicita anticipo:</label>
@@ -261,10 +295,8 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                        </div>
-
+                        </div></center>
                         <center><h3>Informe Presupuestario</h3></center>
-
                             <div class="col-md-12">
                                 <table class="table table-bordered">
                                     <tr>
@@ -303,9 +335,6 @@
                                     </tr>
                                 </table>
                             </div>
-
-
-
                             <div class="col-md-12">
                                 <table class="table table-bordered">
                                     <tr>
@@ -314,40 +343,34 @@
                                     <tr>
                                         <th><label>Jefe Directo</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha:</label><input name= "#" type="text"></th>
+                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
                                     </tr>
                                     <tr>
                                         <th><label>Encargado Centro de Costo</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha:</label><input name= "#" type="text"></th>
+                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
                                     </tr>
                                     <tr>
                                         <th><label>Vicerrector Academico</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha:</label><input name= "#" type="text"></th>
+                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
                                     </tr>
                                     <tr>
                                         <th><label>Director Administracion y Finanzas</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha:</label><input name= "#" type="text"></th>
+                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
                                     </tr>
                                     <tr>
                                         <th><label>Rector</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha:</label><input name= "#" type="text"></th>
+                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
                                     </tr>
                                 </table>
                             </div>
-
                         <div class="form-group">
                             <label for="motivocancela">Observaciones</label>
                             <textarea id="" name="" cols="80" rows="3" class="form-control" ></textarea>
                         </div>
-
-
-
-
-
                     </div>
                 </form>
             </div><!-- /.8 -->
