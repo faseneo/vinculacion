@@ -10,14 +10,14 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a href="">Comision</a></li>
+				<li><a href="vistacomision.php">Comision</a></li>
 				<li><a href="">Convenios</a></li>
 				<li><a href="">Redes</a></li>
 				<li><a href="">Educacion Continua</a></li>
-				<li><a href="">Cometido</a></li>
+				<li><a href="vistacometido.php">Cometido</a></li>
 				<li><a href="">Proyecto de Extension</a></li>
 				<li><a href="">Actividades y Eventos</a></li>
 			</ul>
 		</div>
-	</div>
+	</div> 
 </nav>

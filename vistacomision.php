@@ -77,7 +77,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label >Fecha</label>
-                                    <input id="" type="text" name="" class="form-control">
+                                    <input id="" type="date" name="" class="form-control">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -115,63 +115,63 @@
                             <div class="col-md-12">
                                 <table class="table table-bordered">
                                     <tr>
-                                        <th colspan="2"><label>Su objetivo es</label></th>
-                                        <th colspan="2"><label>Su origen es</label></th>
+                                        <th colspan="2"><label>Su objetivo es :</label></th>
+                                        <th colspan="2"><label>Su origen es :</label></th>
                                     </tr>
                                     <tr>
                                         <tr><td><label>Especializacion en su Area</label></td>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
                                         <th>
                                             <label>Invitacion</label>
                                         </th>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
                                         </tr>
                                         <tr><td><label>Investigacion y Desarrollo de Trabajos</label></td>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
                                         <th>
                                             <label >Disposicion del Departamento</label>
                                         </th>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
                                         </tr>
                                         <tr><td><label>Representar a la UMCE</label></td>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
                                         <th>
                                             <label >Proposicion del Funcionario</label>
                                         </th>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
                                         </tr>
                                         <tr><td><label >Integracion y/o Intercooperacion</label></td>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
                                         <th>
                                             <label >Concurrencia Regular</label>
                                         </th>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
                                         </tr>
                                     </tr>
                                     <tr>
                                         <th>Otro</th>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
-                                        <th><label>Otro</label></th>
+                                        <th>Otro</th>
                                         <th>
-                                            <input name= "#" type="radio">
+                                            <input name= "#" type="checkbox">
                                         </th>
                                     </tr>
                                 </table>
@@ -270,28 +270,28 @@
                             <div class="col-md-2">
                                 <div class="form-group">
                                     <label >Viaticos</label>
-                                    <input name= "#" type="radio">
+                                    <input name= "#" type="checkbox">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="form-group">
                                     <label >Pasajes</label>
-                                    <input name= "#" type="radio">
+                                    <input name= "#" type="checkbox">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="form-group">
                                     <label >Inscripcion</label>
-                                    <input name= "#" type="radio">
+                                    <input name= "#" type="checkbox">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="form-group">
                                     <label >Arancel</label>
-                                    <input name= "#" type="radio">
+                                    <input name= "#" type="checkbox">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -338,32 +338,33 @@
                             <div class="col-md-12">
                                 <table class="table table-bordered">
                                     <tr>
-                                        <th colspan="3"><center><label>Comision de Servicio - Estudio autorizado por:</label></center></th>
+                                        <th colspan="2"><label>Comision de Servicio - Estudio autorizado por:</label></th>
+                                        <th colspan="1"><label>Fecha</label></th>
                                     </tr>
                                     <tr>
                                         <th><label>Jefe Directo</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
+                                        <th><input class="form-control name= "#" type="date"></th>
                                     </tr>
                                     <tr>
                                         <th><label>Encargado Centro de Costo</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
+                                        <th><input class="form-control name= "#" type="date"></th>
                                     </tr>
                                     <tr>
                                         <th><label>Vicerrector Academico</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
+                                        <th><input class="form-control name= "#" type="date"></th>
                                     </tr>
                                     <tr>
                                         <th><label>Director Administracion y Finanzas</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
+                                        <th><input class="form-control name= "#" type="date"></th>
                                     </tr>
                                     <tr>
                                         <th><label>Rector</label></th>
                                         <th><input name= "#" type="text"></th>
-                                        <th><label>Fecha :</label><input name= "#" type="date"></th>
+                                        <th><input class="form-control name= "#" type="date"></th>
                                     </tr>
                                 </table>
                             </div>
